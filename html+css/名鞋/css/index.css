@@ -1,0 +1,433 @@
+@titcolor: #C17E47;
+@allwidth: 100%;
+@headimg: url(../../images/head.png) no-repeat;
+
+.header {
+    width: 100%;
+    overflow: hidden;
+}
+
+.head-top {
+
+    height: 21px;
+    background: #EEEEEE;
+    padding-top: 4px;
+}
+
+.cent {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.head-top ul {
+
+    float: right;
+
+}
+
+.head-top ul li {
+    float: left;
+    padding: 0 15px;
+    border-right: 1px solid #d5d5d5;
+    height: 16px;
+    line-height: 16px;
+}
+
+.head-top ul li a {
+    color: black;
+}
+
+.head-top ul .titcolor {
+    color: #C17E47;
+    padding-left: 10px;
+}
+
+.sanj {
+    margin-right: 10px;
+}
+
+.phone {
+    margin-left: 15px;
+    background: url(../images/head.png) no-repeat;
+    background-position: -366px 1px;
+}
+
+.qq span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/head.png) no-repeat;
+    background-position: -12px -35px;
+    margin: -3px auto;
+}
+
+.sanjiao {
+    margin: 6px auto;
+    float: right;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black transparent transparent transparent;
+}
+
+.head-bot {
+    width: 100%;
+    height: 76px;
+    padding-top: 20px;
+}
+
+.head-log {}
+
+.head-log div {
+
+    margin-right: 10px;
+}
+
+.logo {
+    float: left;
+    width: 421px;
+    height: 63px;
+    background: url(../images/default_icon_bg.png) no-repeat;
+    background-position: 0px -1px;
+}
+
+.sear {
+    float: left;
+}
+
+.sear-top {
+    width: 345px;
+    height: 30px;
+}
+
+.in-txt {
+    width: 260px;
+    height: 26px;
+    float: left;
+    line-height: 26px;
+    color: #666;
+    padding: 0 5px;
+    border: 0;
+    border: 1px solid #666;
+}
+
+.in-btn {
+
+    width: 65px;
+    height: 28px;
+    background: #444;
+    float: left;
+    cursor: pointer;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+.sear-bot {
+    clear: both;
+    margin-top: 10px;
+}
+
+.sear-bot ul li {
+    float: left;
+    padding-right: 6px;
+}
+
+.sear-bot ul li a {
+    color: #888;
+}
+
+.rs {
+    color: #ccc;
+}
+
+.shop {
+    height: 63px;
+    width: 124px;
+    float: right;
+
+}
+
+.shop-cent {
+    width: 126px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    background: url(../images/cart_bg.gif) no-repeat;
+    background-position: 0px 0px;
+}
+
+.shop-num {
+    color: #A21F25;
+}
+
+.shop-cent a {
+    color: #666;
+    padding-left: 10px;
+}
+
+.nav {
+    width: 100%;
+    height: 34px;
+    background: #A21F25;
+}
+
+.nav_box {
+    height: 34px;
+}
+
+.nav_fl {
+    float: left;
+}
+
+.nav_fl li {
+    float: left;
+    line-height: 34px;
+}
+
+.nav_fl li a {
+    display: block;
+    float: left;
+    text-align: center;
+    color: #FFF;
+    font-size: 14px;
+
+    padding: 0 18px;
+    background: url(../images/line.png) no-repeat 0 center;
+}
+
+.nav_fl li a:first-child {
+    background: #444;
+}
+
+.nav_fr {
+    width: 190px;
+    float: right;
+    height: 34px;
+}
+
+.nav_fr img {
+    width: 290px;
+
+    height: 34px;
+}
+
+.big {
+    width: 185px;
+    height: 34px;
+}
+
+.big:first-child {
+    background: url(../images/default_icon_bg.png) no-repeat;
+    background-position: -126px -64px;
+}
+
+.focus {
+    width: 100%;
+    height: 385px;
+    background: url(../images/1.jpg) no-repeat;
+}
+
+.fc-fl {
+    width: 185px;
+    height: 385px;
+    background: #1F1909;
+    box-sizing: border-box;
+    margin-left: 3px;
+    float: left;
+}
+
+.fc-fl li {
+    height: 43px;
+    line-height: 43px;
+}
+
+.fc-fl li a {
+
+    display: block;
+    color: #B3B0A9;
+    font-size: 14px;
+    padding-left: 40px;
+    background: url(../images/icon.png) no-repeat;
+    background-position: 12px -48px;
+
+}
+
+.fc-fr {
+    float: right;
+    height: 385px;
+}
+
+.fc-wrap3 {
+    position: relative;
+}
+
+.circle {
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    left: 203px;
+    bottom: -379px;
+}
+
+.circle ul li {
+    float: left;
+    width: 15px;
+    height: 15px;
+    background: #B2B4B1;
+    margin: 2px;
+    border-radius: 50%;
+}
+
+.circle ul li:last-child {
+    background: #A21F25;
+}
+
+.bn-all {
+    background: #F6F6F6;
+    min-height: 400px;
+}
+
+.wrap-head {
+    padding-top: 10px;
+}
+
+.wrap-head p {
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.wrap1 {
+
+    width: 100%;
+    background: #FEFEFE;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.wp-fl {
+    margin-top: 10px;
+    float: left;
+    width: 770px;
+    height: 250px;
+}
+
+.wp-fl ul {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.wp-fl ul li {
+    width: 108px;
+    height: 75px;
+    float: left;
+    background: url(../images/2.png) no-repeat;
+    background-position: 28px -170px;
+    border: 1px solid #CBCBCB;
+}
+
+.wp-fr {
+    float: right;
+    margin-top: 10px;
+}
+
+.wp-fr ul li {
+    list-style: disc;
+    margin-left: 16px;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.wp-fr h3 {
+    padding: 10px;
+
+}
+
+.wp-fr ul li:nth-child(1) {
+    color: #A21F25;
+}
+
+.wf-bottom {
+    margin-top: 13px;
+}
+
+.wf-bottom img {
+
+    height: 120px;
+}
+
+.wrap2 {
+    height: 290px;
+}
+
+.wrap2 ul li {
+    float: left;
+    width: 188px;
+    padding-right: 10px;
+}
+
+.wrap2 ul li img {
+    width: 192px;
+    height: 290px;
+}
+
+.wrap3 {
+    background: #FFFFFF;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.wrap3 div {
+    float: left;
+}
+
+.wp3-fl {
+    width: 185px;
+    height: 350px;
+}
+
+.wp3-fl ul li {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.wp3-fl ul li a {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+.wp3-fl ul li:first-child {
+    height: 70px;
+}
+
+.wp3-cent {
+
+    margin-left: 10px;
+}
+
+.wp3-cent img {
+    height: 350px;
+}
+
+.wp3-fr {
+    width: 461px;
+    height: 350px;
+}
+
+.wp3-fr ul li {
+    float: left;
+    width: 230px;
+    height: 175px;
+}
+
+.wp3-fr ul li img {
+    width: 238px;
+    height: 175px;
+}
